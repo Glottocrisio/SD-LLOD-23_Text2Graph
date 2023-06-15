@@ -1,0 +1,33 @@
+DEFINITION OF RULES 
+
+
+1. rule for align entities (function "mergeSimilarity")
+If there is a path walking through fred nodes whereby the relations are called "sameas", "rdfsclassof", "rdfssubclassof", "rdftype"
+use the first entity and the first relation to connect directly to the dbpedia entity (in the example "dul:associatedWith").
+
+if through this process entities are to be removed, which are link to other "valid" paths, the latter must be linked to first valid parent 
+
+for every fred entity removed like this, we need to remove (maybe easily by string manipulation) all the chunk automatically generated 
+by FRED to produce that
+
+2. remove disconnected triples
+
+3. remove POS
+
+...
+
+#script to parse a FRED generated Turtle into a cleaner version (entity alignment, link pruning)
+
+#rationalia: 
+# keep all words
+# remove all FRED sameAS
+# remove all possible types and entities
+#   check all owl:equivalentclass -  keep them only if they really match the original string (insert the original string into the file)
+# remove disconnected things
+# remove pos tags
+# begins ends 
+# check boxers
+# refersto
+
+
+Kingdom of Italy---> Italy

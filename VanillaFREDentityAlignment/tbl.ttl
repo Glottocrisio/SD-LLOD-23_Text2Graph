@@ -1,0 +1,166 @@
+@prefix ns1: <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#> .
+@prefix ns2: <http://www.essepuntato.it/2008/12/earmark#> .
+@prefix ns3: <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#> .
+@prefix ns4: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns5: <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#> .
+@prefix ns6: <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#> .
+@prefix ns7: <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#> .
+@prefix ns8: <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:denotes a owl:ObjectProperty .
+
+ns1:hasInterpretant a owl:ObjectProperty .
+
+ns2:begins a owl:ObjectProperty .
+
+ns2:ends a owl:ObjectProperty .
+
+ns2:hasContent a owl:ObjectProperty .
+
+ns2:refersTo a owl:ObjectProperty .
+
+ns5:possibleType a owl:ObjectProperty .
+
+ns6:involves a owl:ObjectProperty .
+
+ns4:associatedWith a owl:ObjectProperty .
+
+ns4:hasQuality a owl:ObjectProperty .
+
+ns8:offset_107_112_times a ns2:PointerRange ;
+    rdfs:label "times"^^xsd:string ;
+    ns1:denotes ns8:time_1 ;
+    ns1:hasInterpretant ns8:Time ;
+    ns2:begins "107"^^xsd:nonNegativeInteger ;
+    ns2:ends "112"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:NNS .
+
+ns8:offset_17_18_%2C a ns2:PointerRange ;
+    rdfs:label ","^^xsd:string ;
+    ns1:hasInterpretant ns8:Rel ;
+    ns2:begins "17"^^xsd:nonNegativeInteger ;
+    ns2:ends "18"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C> .
+
+ns8:offset_19_26_italian a ns2:PointerRange ;
+    rdfs:label "italian"^^xsd:string ;
+    ns1:hasInterpretant ns8:Italian ;
+    ns2:begins "19"^^xsd:nonNegativeInteger ;
+    ns2:ends "26"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:JJ .
+
+ns8:offset_27_37_politician a ns2:PointerRange ;
+    rdfs:label "politician"^^xsd:string ;
+    ns1:denotes ns8:politician_1 ;
+    ns1:hasInterpretant ns8:Politician ;
+    ns2:begins "27"^^xsd:nonNegativeInteger ;
+    ns2:ends "37"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:NN .
+
+ns8:offset_42_53_entrepeneur a ns2:PointerRange ;
+    rdfs:label "entrepeneur"^^xsd:string ;
+    ns1:denotes ns8:entrepeneur_1 ;
+    ns1:hasInterpretant ns8:Entrepeneur ;
+    ns2:begins "42"^^xsd:nonNegativeInteger ;
+    ns2:ends "53"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:NN .
+
+ns8:offset_74_76_of a ns2:PointerRange ;
+    rdfs:label "of"^^xsd:string ;
+    ns1:hasInterpretant ns8:Of ;
+    ns2:begins "74"^^xsd:nonNegativeInteger ;
+    ns2:ends "76"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:IN .
+
+ns8:offset_81_88_council a ns2:PointerRange ;
+    rdfs:label "council"^^xsd:string ;
+    ns1:denotes ns8:council_1 ;
+    ns1:hasInterpretant ns8:Council ;
+    ns2:begins "81"^^xsd:nonNegativeInteger ;
+    ns2:ends "88"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:NN .
+
+ns8:offset_89_91_of a ns2:PointerRange ;
+    rdfs:label "of"^^xsd:string ;
+    ns1:hasInterpretant ns8:Of ;
+    ns2:begins "89"^^xsd:nonNegativeInteger ;
+    ns2:ends "91"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:IN .
+
+ns8:offset_92_101_Ministers a ns2:PointerRange ;
+    rdfs:label "Ministers"^^xsd:string ;
+    ns1:denotes ns8:minister_1 ;
+    ns1:hasInterpretant ns8:Minister ;
+    ns2:begins "92"^^xsd:nonNegativeInteger ;
+    ns2:ends "101"^^xsd:nonNegativeInteger ;
+    ns2:refersTo ns8:docuverse ;
+    ns3:pennpos ns3:NNS .
+
+ns8:presidentOf a owl:ObjectProperty .
+
+ns8:situation_1 a ns8:Situation ;
+    ns6:involves <http://dbpedia.org/resource/Silvio_Berlusconi>,
+        ns8:minister_1 ;
+    ns4:associatedWith ns8:time_1,
+        "4"^^xsd:nonNegativeInteger .
+
+ns3:boxerpos a owl:ObjectProperty .
+
+ns3:pennpos a owl:ObjectProperty .
+
+ns7:hasDeterminer a owl:ObjectProperty .
+
+ns7:hasQuantifier a owl:ObjectProperty .
+
+rdfs:subClassOf a owl:ObjectProperty .
+
+ns8:Italian a owl:Class ;
+    ns3:boxerpos ns3:a ;
+    rdfs:subClassOf ns4:Quality ;
+    owl:equivalentClass <http://dbpedia.org/resource/Italy> .
+
+ns8:Politician a owl:Class ;
+    ns3:boxerpos ns3:n ;
+    owl:equivalentClass <http://dbpedia.org/resource/Politician> .
+
+<http://dbpedia.org/resource/Silvio_Berlusconi> a <http://dbpedia.org/resource/Prime_Minister_of_Italy>,
+        <http://schema.org/Person> ;
+    ns5:possibleType <http://dbpedia.org/ontology/Place> ;
+    ns4:associatedWith <http://dbpedia.org/resource/Entrepreneurship>,
+        <http://dbpedia.org/resource/Politician>,
+        <http://dbpedia.org/resource/Prime_Minister_of_Italy>,
+        ns8:politician_1 ;
+    ns8:presidentOf ns8:council_1,
+        ns8:minister_1 ;
+    owl:sameAs <http://dbpedia.org/resource/Silvio_Berlusconi> .
+
+ns8:Council ns3:boxerpos ns3:n .
+
+ns8:Minister ns3:boxerpos ns3:n .
+
+ns8:Time ns3:boxerpos ns3:n .
+
+ns8:council_1 a ns8:Council ;
+    ns7:hasDeterminer ns7:the .
+
+ns8:time_1 a ns8:Time ;
+    ns7:hasQuantifier ns7:four,
+        ns7:multiple .
+
+ns8:minister_1 a ns8:Minister ;
+    ns7:hasQuantifier ns7:multiple .
+
+ns8:docuverse a ns2:StringDocuverse ;
+    ns2:hasContent "Silvio_Berlusconi, italian politician and entrepeneur, has been president of the council of Ministers four times"^^xsd:string .
+

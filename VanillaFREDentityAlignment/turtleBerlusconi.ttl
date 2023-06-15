@@ -1,0 +1,338 @@
+#Silvio Berlusconi, italian politician and entrepeneur, has been president of the council of Ministers four times
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_19_26_italian>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "italian"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "19"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "26"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://dbpedia.org/resource/Kingdom_of_Italy> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_17_Silvio_Berlusconi>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Silvio_Berlusconi"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "17"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_17_18_%2C>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                ","^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rel> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "17"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "18"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President> ;
+        <http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+                <http://dbpedia.org/ontology/Place> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#presidentOf>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://dbpedia.org/resource/Silvio_Berlusconi> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_64_73_president>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "president"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#president_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "64"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "73"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_89_91_of>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Of> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "89"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "91"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://dbpedia.org/resource/Prime_Minister_of_Italy> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://dbpedia.org/resource/Politician> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur>
+        a       <http://www.w3.org/2002/07/owl#Class> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> ;
+        <http://www.w3.org/2002/07/owl#equivalentClass>
+                <http://dbpedia.org/resource/Entrepreneurship> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer>
+                <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_81_88_council>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "council"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "81"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "88"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_107_112_times>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "times"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "107"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "112"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation> ;
+        <http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+                "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_42_53_entrepeneur>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "entrepeneur"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#entrepeneur_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "42"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "53"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://dbpedia.org/resource/Silvio_Berlusconi>
+        a       <http://schema.org/Person> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier>
+                <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_27_37_politician>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "politician"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "27"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "37"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN> .
+
+<http://www.essepuntato.it/2008/12/earmark#begins>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier>
+                <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple> , <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#four> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_74_76_of>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "of"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Of> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "74"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "76"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_92_101_Ministers>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ministers"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "92"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "101"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_19_37_italian+politician>
+        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "italian politician"^^<http://www.w3.org/2001/XMLSchema#string> , "Italian Politician"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician> ;
+        <http://www.essepuntato.it/2008/12/earmark#begins>
+                "19"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#ends>
+                "37"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
+        <http://www.essepuntato.it/2008/12/earmark#refersTo>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1>
+        a       <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur> , <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician> ;
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+                <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse>
+        a       <http://www.essepuntato.it/2008/12/earmark#StringDocuverse> ;
+        <http://www.essepuntato.it/2008/12/earmark#hasContent>
+                "Silvio_Berlusconi, italian politician and entrepeneur, has been president of the council of Ministers four times"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister>
+        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
+                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> .
+
+<http://www.essepuntato.it/2008/12/earmark#refersTo>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#ends>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.essepuntato.it/2008/12/earmark#hasContent>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#presidentOf>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
